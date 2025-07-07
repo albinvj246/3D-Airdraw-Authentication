@@ -1,0 +1,1 @@
+delete all gestures files when registering new gesture
