@@ -16,7 +16,7 @@ After creating a virtual environment, install them using:
 
 Then, install the LeapC bindings as follows:
 
-1.	Run: '''python -m build leapc-cffi
+1.	Run: '''bash python -m build leapc-cffi
 2.	Then install the generated package: '''pip install leapc-cffi/dist/leapc_cffi-0.0.1.tar.gz'''
 3.	Finally, install the LeapC Python API in editable mode: '''pip install -e leapc-python-api'''
 
