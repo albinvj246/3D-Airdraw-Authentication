@@ -12,7 +12,7 @@ The required libraries are specified in the requirements.txt file. These include
 
 After creating a virtual environment, install them using:
 
-'''pip install -r requirements.txt'''
+```bash pip install -r requirements.txt```
 
 Then, install the LeapC bindings as follows:
 
