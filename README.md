@@ -20,6 +20,7 @@ Then, install the LeapC bindings as follows:
 2.	Then install the generated package: ```pip install leapc-cffi/dist/leapc_cffi-0.0.1.tar.gz```
 3.	Finally, install the LeapC Python API in editable mode: ```pip install -e leapc-python-api```
 
+......................................................................................................
 Setup Instructions
 To get started:
 
@@ -30,6 +31,7 @@ To get started:
 5.	Activate the virtual environment and install the required libraries using the pip install -r requirements.txt command.
 6.	Install the LeapC library as mentioned above.
 
+..........................................................................................................................
 3. Files Included
    
 This project includes three program files:
@@ -38,11 +40,11 @@ todo_app.py – a basic to-do list application that will be gesture-locked.
 •	Two Jupyter Notebooks:
 o	register_gesture_app.ipynb – used to capture and train gestures.
 o	gesture_app_unlock.ipynb – used to unlock the to-do app based on gesture authentication.
-
+..................................................................................................................
 4. Use Case Overview
    
 The goal of the project is to lock and unlock a to-do application using a unique hand gesture captured using the Ultraleap sensor. Gesture recognition is done through an autoencoder model that learns and later matches hand gestures based on 3D point cloud frames.
-
+.........................................................................................................................
 5. Using the Application
    
 Step 1: Connect the Ultraleap Sensor
@@ -75,7 +77,7 @@ To use gesture-based unlocking:
 5.	Show your hand gesture as before — the captured gesture will be saved in the auth_gesture/ folder.
 6.	If the newly captured gesture matches the previously trained gesture, the app will be unlocked.
 7.	If it does not match, access will be denied.
-
+......................................................................................................................
 6. Final Notes
    
 •	Ensure consistent hand placement and gesture positioning when capturing and authenticating gestures.
