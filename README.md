@@ -12,13 +12,13 @@ The required libraries are specified in the requirements.txt file. These include
 
 After creating a virtual environment, install them using:
 
-```bash  // pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
 Then, install the LeapC bindings as follows:
 
-1.	Run: '''bash python -m build leapc-cffi
-2.	Then install the generated package: '''pip install leapc-cffi/dist/leapc_cffi-0.0.1.tar.gz'''
-3.	Finally, install the LeapC Python API in editable mode: '''pip install -e leapc-python-api'''
+1.	Run: ```python -m build leapc-cffi```
+2.	Then install the generated package: ```pip install leapc-cffi/dist/leapc_cffi-0.0.1.tar.gz```
+3.	Finally, install the LeapC Python API in editable mode: ```pip install -e leapc-python-api```
 
 Setup Instructions
 To get started:
