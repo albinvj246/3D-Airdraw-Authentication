@@ -1,0 +1,12 @@
+tensorflow>=2.0.0
+pillow
+psutil
+numpy
+pywin32; sys_platform == 'win32'
+keras
+opencv-python
+mediapipe
+build
+cffi
+scikit-learn
+joblib
