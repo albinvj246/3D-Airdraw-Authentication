@@ -16,12 +16,13 @@ After creating a virtual environment, install them using:
 
 Then, install the LeapC bindings as follows:
 
-1.	Run: '''python -m build leapc-cffi'''
+1.	Run: '''python -m build leapc-cffi
 2.	Then install the generated package: '''pip install leapc-cffi/dist/leapc_cffi-0.0.1.tar.gz'''
 3.	Finally, install the LeapC Python API in editable mode: '''pip install -e leapc-python-api'''
 
-2. Setup Instructions
+Setup Instructions
 To get started:
+
 1.	Save all the project files into a single folder.
 2.	Open the folder in VSCode (or any other Python-compatible IDE).
 3.	Install Python 3.10 if not already installed. It is recommended to use this version for compatibility.
